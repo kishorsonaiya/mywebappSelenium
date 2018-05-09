@@ -42,7 +42,7 @@ public class MyWebAppUserLoginTest {
 		// Otherwise it will open browser with default url and then redirect to
 		// application url
 		capabilities.setCapability(InternetExplorerDriver.INITIAL_BROWSER_URL,
-				"http://PUNITP383056D:8090/mywebapp/userlogin.jsp");
+				"http://localhost:9080/mywebapp/userlogin.jsp");
 
 		// using this feature, sendKeys function was with good speed. Other wise
 		// it takes 3 sends to type one character.
